@@ -1,0 +1,392 @@
+18.0,130.0,1970,chevrolet chevelle malibu
+15.0,165.0,1970,buick skylark 320
+18.0,150.0,1970,plymouth satellite
+16.0,150.0,1970,amc rebel sst
+17.0,140.0,1970,ford torino
+15.0,198.0,1970,ford galaxie 500
+14.0,220.0,1970,chevrolet impala
+14.0,215.0,1970,plymouth fury iii
+14.0,225.0,1970,pontiac catalina
+15.0,190.0,1970,amc ambassador dpl
+15.0,170.0,1970,dodge challenger se
+14.0,160.0,1970,plymouth 'cuda 340
+15.0,150.0,1970,chevrolet monte carlo
+14.0,225.0,1970,buick estate wagon (sw)
+24.0,95.0,1970,toyota corona mark ii
+22.0,95.0,1970,plymouth duster
+18.0,97.0,1970,amc hornet
+21.0,85.0,1970,ford maverick
+27.0,88.0,1970,datsun pl510
+26.0,46.0,1970,volkswagen 1131 deluxe sedan
+25.0,87.0,1970,peugeot 504
+24.0,90.0,1970,audi 100 ls
+25.0,95.0,1970,saab 99e
+26.0,113.0,1970,bmw 2002
+21.0,90.0,1970,amc gremlin
+10.0,215.0,1970,ford f250
+10.0,200.0,1970,chevy c20
+11.0,210.0,1970,dodge d200
+9.0,193.0,1970,hi 1200d
+27.0,88.0,1971,datsun pl510
+28.0,90.0,1971,chevrolet vega 2300
+25.0,95.0,1971,toyota corona
+19.0,100.0,1971,amc gremlin
+16.0,105.0,1971,plymouth satellite custom
+17.0,100.0,1971,chevrolet chevelle malibu
+19.0,88.0,1971,ford torino 500
+18.0,100.0,1971,amc matador
+14.0,165.0,1971,chevrolet impala
+14.0,175.0,1971,pontiac catalina brougham
+14.0,153.0,1971,ford galaxie 500
+14.0,150.0,1971,plymouth fury iii
+12.0,180.0,1971,dodge monaco (sw)
+13.0,170.0,1971,ford country squire (sw)
+13.0,175.0,1971,pontiac safari (sw)
+18.0,110.0,1971,amc hornet sportabout (sw)
+22.0,72.0,1971,chevrolet vega (sw)
+19.0,100.0,1971,pontiac firebird
+18.0,88.0,1971,ford mustang
+23.0,86.0,1971,mercury capri 2000
+28.0,90.0,1971,opel 1900
+30.0,70.0,1971,peugeot 304
+30.0,76.0,1971,fiat 124b
+31.0,65.0,1971,toyota corolla 1200
+35.0,69.0,1971,datsun 1200
+27.0,60.0,1971,volkswagen model 111
+26.0,70.0,1971,plymouth cricket
+24.0,95.0,1972,toyota corona hardtop
+25.0,80.0,1972,dodge colt hardtop
+23.0,54.0,1972,volkswagen type 3
+20.0,90.0,1972,chevrolet vega
+21.0,86.0,1972,ford pinto runabout
+13.0,165.0,1972,chevrolet impala
+14.0,175.0,1972,pontiac catalina
+15.0,150.0,1972,plymouth fury iii
+14.0,153.0,1972,ford galaxie 500
+17.0,150.0,1972,amc ambassador sst
+11.0,208.0,1972,mercury marquis
+13.0,155.0,1972,buick lesabre custom
+12.0,160.0,1972,oldsmobile delta 88 royale
+13.0,190.0,1972,chrysler newport royal
+19.0,97.0,1972,mazda rx2 coupe
+15.0,150.0,1972,amc matador (sw)
+13.0,130.0,1972,chevrolet chevelle concours (sw)
+13.0,140.0,1972,ford gran torino (sw)
+14.0,150.0,1972,plymouth satellite custom (sw)
+18.0,112.0,1972,volvo 145e (sw)
+22.0,76.0,1972,volkswagen 411 (sw)
+21.0,87.0,1972,peugeot 504 (sw)
+26.0,69.0,1972,renault 12 (sw)
+22.0,86.0,1972,ford pinto (sw)
+28.0,92.0,1972,datsun 510 (sw)
+23.0,97.0,1972,toyouta corona mark ii (sw)
+28.0,80.0,1972,dodge colt (sw)
+27.0,88.0,1972,toyota corolla 1600 (sw)
+13.0,175.0,1973,buick century 350
+14.0,150.0,1973,amc matador
+13.0,145.0,1973,chevrolet malibu
+14.0,137.0,1973,ford gran torino
+15.0,150.0,1973,dodge coronet custom
+12.0,198.0,1973,mercury marquis brougham
+13.0,150.0,1973,chevrolet caprice classic
+13.0,158.0,1973,ford ltd
+14.0,150.0,1973,plymouth fury gran sedan
+13.0,215.0,1973,chrysler new yorker brougham
+12.0,225.0,1973,buick electra 225 custom
+13.0,175.0,1973,amc ambassador brougham
+18.0,105.0,1973,plymouth valiant
+16.0,100.0,1973,chevrolet nova custom
+18.0,100.0,1973,amc hornet
+18.0,88.0,1973,ford maverick
+23.0,95.0,1973,plymouth duster
+26.0,46.0,1973,volkswagen super beetle
+11.0,150.0,1973,chevrolet impala
+12.0,167.0,1973,ford country
+13.0,170.0,1973,plymouth custom suburb
+12.0,180.0,1973,oldsmobile vista cruiser
+18.0,100.0,1973,amc gremlin
+20.0,88.0,1973,toyota carina
+21.0,72.0,1973,chevrolet vega
+22.0,94.0,1973,datsun 610
+18.0,90.0,1973,maxda rx3
+19.0,85.0,1973,ford pinto
+21.0,107.0,1973,mercury capri v6
+26.0,90.0,1973,fiat 124 sport coupe
+15.0,145.0,1973,chevrolet monte carlo s
+16.0,230.0,1973,pontiac grand prix
+29.0,49.0,1973,fiat 128
+24.0,75.0,1973,opel manta
+20.0,91.0,1973,audi 100ls
+19.0,112.0,1973,volvo 144ea
+15.0,150.0,1973,dodge dart custom
+24.0,110.0,1973,saab 99le
+20.0,122.0,1973,toyota mark ii
+11.0,180.0,1973,oldsmobile omega
+20.0,95.0,1974,plymouth duster
+19.0,100.0,1974,amc hornet
+15.0,100.0,1974,chevrolet nova
+31.0,67.0,1974,datsun b210
+26.0,80.0,1974,ford pinto
+32.0,65.0,1974,toyota corolla 1200
+25.0,75.0,1974,chevrolet vega
+16.0,100.0,1974,chevrolet chevelle malibu classic
+16.0,110.0,1974,amc matador
+18.0,105.0,1974,plymouth satellite sebring
+16.0,140.0,1974,ford gran torino
+13.0,150.0,1974,buick century luxus (sw)
+14.0,150.0,1974,dodge coronet custom (sw)
+14.0,140.0,1974,ford gran torino (sw)
+14.0,150.0,1974,amc matador (sw)
+29.0,83.0,1974,audi fox
+26.0,67.0,1974,volkswagen dasher
+26.0,78.0,1974,opel manta
+31.0,52.0,1974,toyota corona
+32.0,61.0,1974,datsun 710
+28.0,75.0,1974,dodge colt
+24.0,75.0,1974,fiat 128
+26.0,75.0,1974,fiat 124 tc
+24.0,97.0,1974,honda civic
+26.0,93.0,1974,subaru
+31.0,67.0,1974,fiat x1.9
+19.0,95.0,1975,plymouth valiant custom
+18.0,105.0,1975,chevrolet nova
+15.0,72.0,1975,mercury monarch
+15.0,72.0,1975,ford maverick
+16.0,170.0,1975,pontiac catalina
+15.0,145.0,1975,chevrolet bel air
+16.0,150.0,1975,plymouth grand fury
+14.0,148.0,1975,ford ltd
+17.0,110.0,1975,buick century
+16.0,105.0,1975,chevroelt chevelle malibu
+15.0,110.0,1975,amc matador
+18.0,95.0,1975,plymouth fury
+21.0,110.0,1975,buick skyhawk
+20.0,110.0,1975,chevrolet monza 2+2
+13.0,129.0,1975,ford mustang ii
+29.0,75.0,1975,toyota corolla
+23.0,83.0,1975,ford pinto
+20.0,100.0,1975,amc gremlin
+23.0,78.0,1975,pontiac astro
+24.0,96.0,1975,toyota corona
+25.0,71.0,1975,volkswagen dasher
+24.0,97.0,1975,datsun 710
+18.0,97.0,1975,ford pinto
+29.0,70.0,1975,volkswagen rabbit
+19.0,90.0,1975,amc pacer
+23.0,95.0,1975,audi 100ls
+23.0,88.0,1975,peugeot 504
+22.0,98.0,1975,volvo 244dl
+25.0,115.0,1975,saab 99le
+33.0,53.0,1975,honda civic cvcc
+28.0,86.0,1976,fiat 131
+25.0,81.0,1976,opel 1900
+25.0,92.0,1976,capri ii
+26.0,79.0,1976,dodge colt
+27.0,83.0,1976,renault 12tl
+17.5,140.0,1976,chevrolet chevelle malibu classic
+16.0,150.0,1976,dodge coronet brougham
+15.5,120.0,1976,amc matador
+14.5,152.0,1976,ford gran torino
+22.0,100.0,1976,plymouth valiant
+22.0,105.0,1976,chevrolet nova
+24.0,81.0,1976,ford maverick
+22.5,90.0,1976,amc hornet
+29.0,52.0,1976,chevrolet chevette
+24.5,60.0,1976,chevrolet woody
+29.0,70.0,1976,vw rabbit
+33.0,53.0,1976,honda civic
+20.0,100.0,1976,dodge aspen se
+18.0,78.0,1976,ford granada ghia
+18.5,110.0,1976,pontiac ventura sj
+17.5,95.0,1976,amc pacer d/l
+29.5,71.0,1976,volkswagen rabbit
+32.0,70.0,1976,datsun b-210
+28.0,75.0,1976,toyota corolla
+26.5,72.0,1976,ford pinto
+20.0,102.0,1976,volvo 245
+13.0,150.0,1976,plymouth volare premier v8
+19.0,88.0,1976,peugeot 504
+19.0,108.0,1976,toyota mark ii
+16.5,120.0,1976,mercedes-benz 280s
+16.5,180.0,1976,cadillac seville
+13.0,145.0,1976,chevy c10
+13.0,130.0,1976,ford f108
+13.0,150.0,1976,dodge d100
+31.5,68.0,1977,honda accord cvcc
+30.0,80.0,1977,buick opel isuzu deluxe
+36.0,58.0,1977,renault 5 gtl
+25.5,96.0,1977,plymouth arrow gs
+33.5,70.0,1977,datsun f-10 hatchback
+17.5,145.0,1977,chevrolet caprice classic
+17.0,110.0,1977,oldsmobile cutlass supreme
+15.5,145.0,1977,dodge monaco brougham
+15.0,130.0,1977,mercury cougar brougham
+17.5,110.0,1977,chevrolet concours
+20.5,105.0,1977,buick skylark
+19.0,100.0,1977,plymouth volare custom
+18.5,98.0,1977,ford granada
+16.0,180.0,1977,pontiac grand prix lj
+15.5,170.0,1977,chevrolet monte carlo landau
+15.5,190.0,1977,chrysler cordoba
+16.0,149.0,1977,ford thunderbird
+29.0,78.0,1977,volkswagen rabbit custom
+24.5,88.0,1977,pontiac sunbird coupe
+26.0,75.0,1977,toyota corolla liftback
+25.5,89.0,1977,ford mustang ii 2+2
+30.5,63.0,1977,chevrolet chevette
+33.5,83.0,1977,dodge colt m/m
+30.0,67.0,1977,subaru dl
+30.5,78.0,1977,volkswagen dasher
+22.0,97.0,1977,datsun 810
+21.5,110.0,1977,bmw 320i
+21.5,110.0,1977,mazda rx-4
+43.1,48.0,1978,volkswagen rabbit custom diesel
+36.1,66.0,1978,ford fiesta
+32.8,52.0,1978,mazda glc deluxe
+39.4,70.0,1978,datsun b210 gx
+36.1,60.0,1978,honda civic cvcc
+19.9,110.0,1978,oldsmobile cutlass salon brougham
+19.4,140.0,1978,dodge diplomat
+20.2,139.0,1978,mercury monarch ghia
+19.2,105.0,1978,pontiac phoenix lj
+20.5,95.0,1978,chevrolet malibu
+20.2,85.0,1978,ford fairmont (auto)
+25.1,88.0,1978,ford fairmont (man)
+20.5,100.0,1978,plymouth volare
+19.4,90.0,1978,amc concord
+20.6,105.0,1978,buick century special
+20.8,85.0,1978,mercury zephyr
+18.6,110.0,1978,dodge aspen
+18.1,120.0,1978,amc concord d/l
+19.2,145.0,1978,chevrolet monte carlo landau
+17.7,165.0,1978,buick regal sport coupe (turbo)
+18.1,139.0,1978,ford futura
+17.5,140.0,1978,dodge magnum xe
+30.0,68.0,1978,chevrolet chevette
+27.5,95.0,1978,toyota corona
+27.2,97.0,1978,datsun 510
+30.9,75.0,1978,dodge omni
+21.1,95.0,1978,toyota celica gt liftback
+23.2,105.0,1978,plymouth sapporo
+23.8,85.0,1978,oldsmobile starfire sx
+23.9,97.0,1978,datsun 200-sx
+20.3,103.0,1978,audi 5000
+17.0,125.0,1978,volvo 264gl
+21.6,115.0,1978,saab 99gle
+16.2,133.0,1978,peugeot 604sl
+31.5,71.0,1978,volkswagen scirocco
+29.5,68.0,1978,honda accord lx
+21.5,115.0,1979,pontiac lemans v6
+19.8,85.0,1979,mercury zephyr 6
+22.3,88.0,1979,ford fairmont 4
+20.2,90.0,1979,amc concord dl 6
+20.6,110.0,1979,dodge aspen 6
+17.0,130.0,1979,chevrolet caprice classic
+17.6,129.0,1979,ford ltd landau
+16.5,138.0,1979,mercury grand marquis
+18.2,135.0,1979,dodge st. regis
+16.9,155.0,1979,buick estate wagon (sw)
+15.5,142.0,1979,ford country squire (sw)
+19.2,125.0,1979,chevrolet malibu classic (sw)
+18.5,150.0,1979,chrysler lebaron town @ country (sw)
+31.9,71.0,1979,vw rabbit custom
+34.1,65.0,1979,maxda glc deluxe
+35.7,80.0,1979,dodge colt hatchback custom
+27.4,80.0,1979,amc spirit dl
+25.4,77.0,1979,mercedes benz 300d
+23.0,125.0,1979,cadillac eldorado
+27.2,71.0,1979,peugeot 504
+23.9,90.0,1979,oldsmobile cutlass salon brougham
+34.2,70.0,1979,plymouth horizon
+34.5,70.0,1979,plymouth horizon tc3
+31.8,65.0,1979,datsun 210
+37.3,69.0,1979,fiat strada custom
+28.4,90.0,1979,buick skylark limited
+28.8,115.0,1979,chevrolet citation
+26.8,115.0,1979,oldsmobile omega brougham
+33.5,90.0,1979,pontiac phoenix
+41.5,76.0,1980,vw rabbit
+38.1,60.0,1980,toyota corolla tercel
+32.1,70.0,1980,chevrolet chevette
+37.2,65.0,1980,datsun 310
+28.0,90.0,1980,chevrolet citation
+26.4,88.0,1980,ford fairmont
+24.3,90.0,1980,amc concord
+19.1,90.0,1980,dodge aspen
+34.3,78.0,1980,audi 4000
+29.8,90.0,1980,toyota corona liftback
+31.3,75.0,1980,mazda 626
+37.0,92.0,1980,datsun 510 hatchback
+32.2,75.0,1980,toyota corolla
+46.6,65.0,1980,mazda glc
+27.9,105.0,1980,dodge colt
+40.8,65.0,1980,datsun 210
+44.3,48.0,1980,vw rabbit c (diesel)
+43.4,48.0,1980,vw dasher (diesel)
+36.4,67.0,1980,audi 5000s (diesel)
+30.0,67.0,1980,mercedes-benz 240d
+44.6,67.0,1980,honda civic 1500 gl
+33.8,67.0,1980,subaru dl
+29.8,62.0,1980,vokswagen rabbit
+32.7,132.0,1980,datsun 280-zx
+23.7,100.0,1980,mazda rx-7 gs
+35.0,88.0,1980,triumph tr7 coupe
+32.4,72.0,1980,honda accord
+27.2,84.0,1981,plymouth reliant
+26.6,84.0,1981,buick skylark
+25.8,92.0,1981,dodge aries wagon (sw)
+23.5,110.0,1981,chevrolet citation
+30.0,84.0,1981,plymouth reliant
+39.1,58.0,1981,toyota starlet
+39.0,64.0,1981,plymouth champ
+35.1,60.0,1981,honda civic 1300
+32.3,67.0,1981,subaru
+37.0,65.0,1981,datsun 210 mpg
+37.7,62.0,1981,toyota tercel
+34.1,68.0,1981,mazda glc 4
+34.7,63.0,1981,plymouth horizon 4
+34.4,65.0,1981,ford escort 4w
+29.9,65.0,1981,ford escort 2h
+33.0,74.0,1981,volkswagen jetta
+33.7,75.0,1981,honda prelude
+32.4,75.0,1981,toyota corolla
+32.9,100.0,1981,datsun 200sx
+31.6,74.0,1981,mazda 626
+28.1,80.0,1981,peugeot 505s turbo diesel
+30.7,76.0,1981,volvo diesel
+25.4,116.0,1981,toyota cressida
+24.2,120.0,1981,datsun 810 maxima
+22.4,110.0,1981,buick century
+26.6,105.0,1981,oldsmobile cutlass ls
+20.2,88.0,1981,ford granada gl
+17.6,85.0,1981,chrysler lebaron salon
+28.0,88.0,1982,chevrolet cavalier
+27.0,88.0,1982,chevrolet cavalier wagon
+34.0,88.0,1982,chevrolet cavalier 2-door
+31.0,85.0,1982,pontiac j2000 se hatchback
+29.0,84.0,1982,dodge aries se
+27.0,90.0,1982,pontiac phoenix
+24.0,92.0,1982,ford fairmont futura
+36.0,74.0,1982,volkswagen rabbit l
+37.0,68.0,1982,mazda glc custom l
+31.0,68.0,1982,mazda glc custom
+38.0,63.0,1982,plymouth horizon miser
+36.0,70.0,1982,mercury lynx l
+36.0,88.0,1982,nissan stanza xe
+36.0,75.0,1982,honda accord
+34.0,70.0,1982,toyota corolla
+38.0,67.0,1982,honda civic
+32.0,67.0,1982,honda civic (auto)
+38.0,67.0,1982,datsun 310 gx
+25.0,110.0,1982,buick century limited
+38.0,85.0,1982,oldsmobile cutlass ciera (diesel)
+26.0,92.0,1982,chrysler lebaron medallion
+22.0,112.0,1982,ford granada l
+32.0,96.0,1982,toyota celica gt
+36.0,84.0,1982,dodge charger 2.2
+27.0,90.0,1982,chevrolet camaro
+27.0,86.0,1982,ford mustang gl
+44.0,52.0,1982,vw pickup
+32.0,84.0,1982,dodge rampage
+28.0,79.0,1982,ford ranger
+31.0,82.0,1982,chevy s-10

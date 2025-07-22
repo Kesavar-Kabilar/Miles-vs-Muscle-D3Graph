@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Car Efficiency Evolution</title>
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<style>
+			.container {
+				max-width: 1100px;
+				margin: 20px auto;
+				text-align: center;
+			}
+			#tooltip {
+				position: absolute;
+				visibility: hidden;
+				pointer-events: none;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                font-size: 0.75em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h2 id="chart-title"></h2>
+			<svg id="scatterplot"></svg>
+			<div class="controls">
+				<button id="prev-button">Previous</button>
+				<span id="scene-indicator"></span>
+				<button id="next-button">Next</button>
+			</div>
+		</div>
+
+		<div id="tooltip"></div>
+
+		<script>
+			const margin = { top: 40, right: 30, bottom: 60, left: 70 };
+			const width = 800 - margin.left - margin.right;
+			const height = 500 - margin.top - margin.bottom;
+
+			let currentSceneIndex = 0;
+			let allCarData = [];
+			let scenes = [];
+
+			const svg = d3
+				.select("#scatterplot")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom)
+				.append("g")
+				.attr("transform", `translate(${margin.left},${margin.top})`);
+
+			const chartTitle = d3.select("#chart-title");
+			const sceneIndicator = d3.select("#scene-indicator");
+			const prevButton = d3.select("#prev-button");
+			const nextButton = d3.select("#next-button");
+
+			const tooltip = d3.select("#tooltip");
+
+			const xScale = d3.scaleLinear().range([0, width]);
+			const yScale = d3.scaleLinear().range([height, 0]);
+
+			const xAxisG = svg
+				.append("g")
+				.attr("transform", `translate(0,${height})`);
+			svg.append("text")
+				.attr("x", width / 2)
+				.attr("y", height + margin.bottom - 10)
+				.attr("text-anchor", "middle")
+				.text("Horsepower");
+
+			const yAxisG = svg.append("g");
+			svg.append("text")
+				.attr("x", -height / 2)
+				.attr("y", -margin.left + 20)
+				.attr("text-anchor", "middle")
+				.attr("transform", "rotate(-90)")
+				.text("Miles Per Gallon (MPG)");
+
+
+			d3.text("auto-mpg.data")
+				.then((rawData) => {
+					allCarData = rawData
+						.split("\n")
+						.map((line) => {
+							const parts = line.trim().split(',');
+
+							return {
+								mpg: +parts[0],
+								horsepower: +parts[1],
+								model_year: +parts[2],
+								car_name: parts[3]
+							};
+						});
+
+					xScale
+						.domain(d3.extent(allCarData, (d) => d.horsepower))
+						.nice();
+					yScale.domain(d3.extent(allCarData, (d) => d.mpg)).nice();
+
+					xAxisG.call(d3.axisBottom(xScale));
+					yAxisG.call(d3.axisLeft(yScale));
+
+					scenes = [
+						{
+							title: "Early 1970s: The Era of Muscle Cars",
+							filter: (d) =>
+								d.model_year >= 1970 && d.model_year <= 1974,
+							annotations: [
+								{
+									x: 130,
+									y: 18,
+									text: "Most 70s Cars Were Powerful But Inefficient.",
+									dx: 50,
+									dy: -30
+								},
+								{
+									x: 70,
+									y: 30,
+									text: "Imported Cars That Were Smaller And Efficient",
+									dx: 50,
+									dy: -10
+								}
+							]
+						},
+						{
+							title: "Mid-1970s: The Oil Crisis Impact",
+							filter: (d) =>
+								d.model_year >= 1975 && d.model_year <= 1978,
+							annotations: [
+								{
+									x: 100,
+									y: 18,
+									text: "Post-oil Crisis, A Shift Towards Slightly Better MPG.",
+									dx: 40,
+									dy: -30
+								},
+								{
+									x: 70,
+									y: 30,
+									text: "Efficiency Became A Greater Priority For Some Models",
+									dx: 50,
+									dy: -10
+								}
+							]
+						},
+						{
+							title: "Early 1980s: Further Efficiency Gains",
+							filter: (d) =>
+								d.model_year >= 1979 && d.model_year <= 1982,
+							annotations: [
+								{
+									x: 100,
+									y: 25,
+									text: "Higher MPG For Lower Horsepower",
+									dx: 50,
+									dy: -30
+								},
+								{
+									x: 80,
+									y: 35,
+									text: "Smaller Engines And Lighter Designs",
+									dx: 50,
+									dy: -10
+								}
+							]
+						}
+					];
+
+					drawScene(currentSceneIndex);
+				});
+
+			function drawScene(index) {
+				if (index < 0 || index >= scenes.length) return;
+				currentSceneIndex = index;
+
+				const sceneData = scenes[currentSceneIndex];
+				chartTitle.text(sceneData.title);
+				sceneIndicator.text(
+					`Scene ${currentSceneIndex + 1} of ${scenes.length}`
+				);
+
+				const filteredData = allCarData.filter(sceneData.filter);
+
+				const circles = svg
+					.selectAll(".dot")
+					.data(filteredData, (d) => d.car_name + d.model_year);
+
+				circles.exit().transition().duration(500).attr("r", 0).remove();
+
+				const enterCircles = circles
+					.enter()
+					.append("circle")
+					.attr("class", "dot")
+					.attr("cx", (d) => xScale(d.horsepower))
+					.attr("cy", (d) => yScale(d.mpg))
+					.attr("r", 0)
+					.attr("fill", "green");
+
+				const mergedCircles = enterCircles.merge(circles);
+
+				mergedCircles
+					.transition()
+					.duration(750)
+					.attr("cx", (d) => xScale(d.horsepower))
+					.attr("cy", (d) => yScale(d.mpg))
+					.attr("r", 5)
+					.attr("fill", "green");
+
+				mergedCircles
+					.on("mouseover", function (event, d) {
+						d3.select(this)
+							.attr("stroke", "black")
+							.attr("stroke-width", 2);
+
+						tooltip.style(
+							"visibility",
+							"visible"
+						).html(`<strong>${d.car_name}</strong><br>
+                               MPG: ${d.mpg}<br>
+                               HP: ${d.horsepower}<br>
+                               Year: ${d.model_year}`);
+					})
+					.on("mousemove", function (event) {
+						tooltip
+							.style("left", event.pageX + 10 + "px")
+							.style("top", event.pageY - 20 + "px");
+					})
+					.on("mouseout", function () {
+						d3.select(this)
+							.attr("stroke", null)
+							.attr("stroke-width", null);
+
+						tooltip.style("visibility", "hidden");
+					});
+
+				svg.selectAll(".annotation-group").remove();
+
+				const annotationsGroup = svg
+					.append("g")
+					.attr("class", "annotation-group");
+
+				sceneData.annotations.forEach((ann, i) => {
+					const g = annotationsGroup
+						.append("g")
+						.attr(
+							"transform",
+							`translate(${xScale(ann.x)},${yScale(ann.y)})`
+						);
+
+					g.append("rect")
+						.attr("x", ann.dx)
+						.attr("y", ann.dy - 15)
+						.attr("width", ann.text.length * 8)
+						.attr("height", 25)
+						.attr("fill", "white")
+						.attr("stroke", "#555")
+						.attr("stroke-width", 1)
+						.attr("rx", 3)
+						.attr("ry", 3);
+
+					g.append("text")
+						.attr("x", ann.dx + 5)
+						.attr("y", ann.dy + 2)
+						.text(ann.text)
+						.attr("text-anchor", "start")
+						.attr("alignment-baseline", "middle");
+
+				});
+			}
+
+			prevButton.on("click", () => {
+				drawScene(currentSceneIndex - 1);
+			});
+
+			nextButton.on("click", () => {
+				drawScene(currentSceneIndex + 1);
+			});
+		</script>
+	</body>
+</html>
