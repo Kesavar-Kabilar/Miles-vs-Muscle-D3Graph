@@ -1,5 +1,8 @@
 # Car Efficiency Evolution Narrative Visualization
 
+## Narrative Visualization URL
+https://kesavar-kabilar.github.io/CarsEfficiencyNarrativeVisualization/
+
 ## Messaging
 
 The main purpose of this narrative visualization is to showcase how the efficiency and power were incorporated into manufacturing cars from the early 1970s to the early 1980s. It specifically compares the efficiency (measured by miles per gallon) in relation to the power (measured by horsepower). This aims to show how the car industry was influenced by historical events, such as the oil crisis, which led to a change for automotive industries to prioritize efficiency over power. This change can be observed by utilizing a scatterplot of each car’s performance data from the early 1970s, late 1970s, and the early 1980s. By analyzing the trends across these distinct periods, it can be observed that the cars’ performances are moving towards the top left, indicating that the manufactured cars were becoming more efficient (higher miles per gallon) and had lesser horsepower (fewer values for horsepower). This indicates that horsepower became less prioritized, and efficiency was more valued and significant in the design and production of upcoming vehicles.
