@@ -3,7 +3,7 @@
 This project uses D3.js to visualize trade-offs in car design from the late 1970s to early 1980s, highlighting the inverse trends between fuel efficiency and engine power following the oil crisis.
 
 ## Narrative Visualization URL
-[https://kesavar-kabilar.github.io/GasGraphsGears/](https://kesavar-kabilar.github.io/GasGraphsGears/)
+[https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/)
 
 ## Messaging
 
