@@ -5,6 +5,8 @@ This project uses D3.js to visualize trade-offs in car design from the late 1970
 ## Narrative Visualization URL
 [https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/)
 
+![https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](./imgs/scene1.png)
+
 ## Messaging
 
 The main purpose of this narrative visualization is to showcase how the efficiency and power were incorporated into manufacturing cars from the early 1970s to the early 1980s. It specifically compares the efficiency (measured by miles per gallon) in relation to the power (measured by horsepower). This aims to show how the car industry was influenced by historical events, such as the oil crisis, which led to a change for automotive industries to prioritize efficiency over power. This change can be observed by utilizing a scatterplot of each car’s performance data from the early 1970s, late 1970s, and the early 1980s. By analyzing the trends across these distinct periods, it can be observed that the cars’ performances are moving towards the top left, indicating that the manufactured cars were becoming more efficient (higher miles per gallon) and had lesser horsepower (fewer values for horsepower). This indicates that horsepower became less prioritized, and efficiency was more valued and significant in the design and production of upcoming vehicles.
@@ -31,9 +33,15 @@ To highlight important parts of the data and urge the viewer to focus on key ins
 
 The first scene, titled "Early 1970s: The Era of Muscle Cars," displays the performance data of several cars from 1970 to 1974 (inclusive). In this initial view, the scatterplot reveals several cars that are geared towards the lower-right quadrant, indicating a large number of vehicles with higher horsepower but relatively lower miles per gallon. This visual trend showcases the automotive priorities of the time, where raw power and larger engines were often favored, leading to less fuel-efficient designs. It also shows some cars towards the bottom left quadrant, showing a lower horsepower and lower efficiency likely from imported cars. Annotations in this scene would specifically highlight these clusters, drawing the viewer's attention to the characteristics defining this era.
 
+![](./imgs/scene1.png)
+
 The second scene, titled "Late 1970s: The Oil Crisis Impact," displays the performance data of several cars’ from 1975 to 1979 (inclusive). This period showcases the after-effect of the oil crisis. After this oil crisis, it showcased the potential of oil becoming very scarce and efficiency of a car becoming more important. While some high-horsepower, low-MPG vehicles were still present, the scatterplot shows that most cars were starting to prioritize lower horsepower and higher efficiency. Annotations here would guide the viewer to perceive the initial responses of the automotive industry to the increased demand for fuel economy.
 
+![](./imgs/scene2.png)
+
 The third scene, titled "Early 1980s: Further Efficiency Gains," displays the performance data of several cars’ from 1980 to 1982 (inclusive). In this final scene, the scatterplot shows a more pronounced shift towards higher MPG, with many data points in the top left quadrant, especially for lower and medium horsepower ranges. This scene vividly illustrates the advancements in fuel efficiency driven by continued consumer demand and potentially stricter regulations following the energy crises. Annotations emphasize the main priority of efficiency where cars achieve much higher MPG with relatively lower horsepower, cementing the narrative of how efficiency became a dominant and significant factor in car design and production.
+
+![](./imgs/scene3.png)
 
 ## Annotations
 
