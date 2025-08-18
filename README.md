@@ -1,4 +1,4 @@
-# Car Efficiency Evolution Narrative Visualization
+# Gas, Graphs & Gears: Visualizing Trade-Offs in Car Design with D3
 
 ## Narrative Visualization URL
 https://kesavar-kabilar.github.io/CarsEfficiencyNarrativeVisualization/
