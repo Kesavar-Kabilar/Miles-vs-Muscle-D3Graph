@@ -55,6 +55,8 @@ Annotations are used to elaborate on certain messages to further indicate the ob
 
 The annotations change with the change of each scene. When the user navigates from one scene to the next using the "Previous" or "Next" buttons, the annotations from the previous scene are entirely cleared from the display, and a fresh set of annotations for the newly loaded scene is presented. This method ensures that only pertinent information is visible at any given moment, maintaining focus and preventing unnecessary visual information overload.
 
+![https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](./imgs/annotations.png)
+
 ## Parameters
 
 The parameters of this narrative visualization are the variables that are used to display the current state and visual output. These parameters include:
