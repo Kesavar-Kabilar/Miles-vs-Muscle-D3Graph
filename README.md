@@ -55,8 +55,6 @@ Annotations are used to elaborate on certain messages to further indicate the ob
 
 The annotations change with the change of each scene. When the user navigates from one scene to the next using the "Previous" or "Next" buttons, the annotations from the previous scene are entirely cleared from the display, and a fresh set of annotations for the newly loaded scene is presented. This method ensures that only pertinent information is visible at any given moment, maintaining focus and preventing unnecessary visual information overload.
 
-![https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](./imgs/annotations.png)
-
 ## Parameters
 
 The parameters of this narrative visualization are the variables that are used to display the current state and visual output. These parameters include:
@@ -74,5 +72,7 @@ This narrative visualization uses triggers to allow the user to freely explore t
 1.  **Previous Button Click**: This allows the user to progress to the preceding scenes. As an example, from the early 1980s, if the user wants to traverse to the previous scenes, the user can click the previous button, allowing the viewer to navigate to the late 1970s or the early 1970s. This provides the viewer with control over their own custom speed of the story, enabling them to discover and visualize the evolving patterns at their own discretion.
 2.  **Next Button Click**: This allows the user to progress to the next scenes. As an example, if the user is currently viewing the early 1970s scene and wants to see the impact of the oil crisis, they can click the "Next" button to navigate to the late 1970s scene. This provides the viewer with control over their own custom speed of the narrative, enabling them to discover and visualize the evolving patterns at their own discretion.
 3.  **Mouseover on Data Point (Circle)**: This allows the viewers a "drill-down" opportunity, allowing the user to explore specific information of individual cars on demand. The viewer can hover over a data point to instantly access detailed information such as the name of the car, car’s miles per gallon, car’s horsepower, and the car’s model year. This allows the viewer the ability to get specific information of the data without disrupting the narrative flow of the scene.
+
+![https://kesavar-kabilar.github.io/Miles-vs-Muscle-D3Graph/](./imgs/trigger.png)
 
 In addition, the scene-indicator displays the total number of scenes and the current scene. By displaying "Scene X of Y" (e.g., "Scene 1 of 3"), it continuously shows the user their current position within the narrative sequence and the total number of scenes available, providing a clear sense of progression and scope.
